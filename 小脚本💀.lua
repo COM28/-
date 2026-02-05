@@ -3073,7 +3073,6 @@ Tab3:CreateButton({
 }
 
 game:GetService("ReplicatedStorage").Events.RainbowWhatStat:FireServer(unpack(args))
-
     end
 })
 
@@ -3085,7 +3084,6 @@ Tab3:CreateButton({
 }
 
 game:GetService("ReplicatedStorage").Events.RainbowWhatStat:FireServer(unpack(args))
-
     end
 })
 
@@ -3097,7 +3095,6 @@ Tab3:CreateButton({
 }
 
 game:GetService("ReplicatedStorage").Events.GiveTool:FireServer(unpack(args))
-
     end
 })
 
@@ -3124,7 +3121,6 @@ Tab3:CreateButton({
 }
 
 game:GetService("ReplicatedStorage").Events.Vending:FireServer(unpack(args))
-
     end
 })
 
@@ -3209,7 +3205,6 @@ Tab4:CreateButton({
 }
 
 game:GetService("ReplicatedStorage").Remotes.Upgrade:FireServer(unpack(args))
-
     end
 })
 
@@ -3254,7 +3249,6 @@ Tab4:CreateButton({
 }
 
 game:GetService("ReplicatedStorage").Remotes.Upgrade:FireServer(unpack(args))
-
     end
 })
 
@@ -3275,7 +3269,6 @@ Tab4:CreateButton({
 }
 
 game:GetService("ReplicatedStorage").Remotes.Upgrade:FireServer(unpack(args))
-
     end
 })
 
