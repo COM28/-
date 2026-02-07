@@ -1,4 +1,4 @@
-    repeat task.wait() until game:IsLoaded()
+repeat task.wait() until game:IsLoaded()
 
 local Rayfield
 local sources = {
@@ -27,7 +27,7 @@ local Window
 for i = 1, 5 do
     local success = pcall(function()
         Window = Rayfield:CreateWindow({
-            Name = "小脚本💀",
+            Name = "小脚本",
             LoadingTitle = "加载中...",
             LoadingSubtitle = "尝试 "..i.."/5",
             ConfigurationSaving = {Enabled = false},
