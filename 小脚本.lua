@@ -3135,7 +3135,6 @@ task.wait()local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.FoundMoney:FireServer(unpack(args))
-end
     end
 })
 
@@ -3152,7 +3151,6 @@ task.wait()local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.HitBadguy:FireServer(unpack(args))
-end
     end
 })
 
@@ -3173,7 +3171,6 @@ task.wait()local args = {
 }
 
 game:GetService("ReplicatedStorage").Remotes.GrassCollect:FireServer(unpack(args))
-end
     end
 })
 
@@ -3184,7 +3181,6 @@ Tab4:CreateButton({
 
 while getgenv().farm do
 task.wait()game:GetService("ReplicatedStorage").Remotes.Rebirth:FireServer()
-end
     end
 })
 
