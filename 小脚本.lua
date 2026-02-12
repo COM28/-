@@ -3128,13 +3128,18 @@ Tab3:CreateButton({
     Name = "自动捡金钱",
     Callback = function()
         getgenv().farm = true
-
-while getgenv().farm do
-task.wait()local args = {
-    [1] = workspace.Money3
-}
-
-game:GetService("ReplicatedStorage").Events.FoundMoney:FireServer(unpack(args))
+        if autoFunctions.collectMoney then
+            autoFunctions.collectMoney = false
+        else
+            autoFunctions.collectMoney = true
+            while autoFunctions.collectMoney do
+                task.wait()
+                local args = {
+                    [1] = workspace.Money3
+                }
+                game:GetService("ReplicatedStorage").Events.FoundMoney:FireServer(unpack(args))
+            end
+        end
     end
 })
 
